@@ -1,0 +1,62 @@
+
+/* font-family: 'Courier Prime', monospace;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Press Start 2P', cursive; */
+
+body{
+  background-color: palevioletred;
+ 
+}
+.welcome{
+
+  text-align: center; 
+	width: 20em;
+	height: 2em;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+  bottom: 0;
+  font-size: 0.5vw;
+}
+h1{
+
+    width: 18.5em; height: 1.25em;
+   color: thistle;
+   
+    border-right: 1px solid transparent;
+    animation: typing 3.5s steps(37, end), blink-caret .75s step-end infinite;
+    font-family: 'Courier Prime', monospace;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 18.5em; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+}
+a:link {
+  text-decoration:none;
+}
+
+a:visited {
+  color: cyan;
+  text-decoration:none;
+}
+
+a:hover {
+  color: cyan;
+  text-decoration:none;
+}
+
+a:active {
+  color:lightpink;
+  text-decoration:none;
+}
+

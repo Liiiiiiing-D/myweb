@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(35, 26, 78);
+}
+h1{
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80px;
+    color: rgb(255, 182, 237);
+    right: 70px;
+    border-top:2px solid  rgb(255, 182, 237);
+    padding-top: 50px;
+}
+
+.t1{
+    position: absolute;
+ 
+    right:10px;
+    color: rgb(255, 182, 237);
+}
+p{
+    
+    display: table-cell;
+    width: 80px;
+    font-size: 10px;
+    padding: 50px;
+    padding-top: 200px;
+   
+}
+.v1{
+    position: absolute;
+    right: 20px;
+    top: 500px;
+   
+}
+
+.v2{
+    position: absolute;
+    left: 120px;
+    top: 1000px;
+   z-index: 100;
+   border:2px solid  rgb(255, 182, 237);
+}
+
+.v3{
+    position: absolute;
+    right: -120px;
+    top: 600px;
+   z-index: 90;
+   border:2px solid  rgb(255, 182, 237);
+}

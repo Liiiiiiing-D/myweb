@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#scene-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: skyblue;
+}
+/* 
+#info {
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  color:palevioletred;
+  font-size: 10vw;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block; */
+}
+
+.container{
+  background:rgba(255,255,255, 0.3);
+  height: 100%;
+  width: 100%;
+  
+}
+   .my_text{
+      position: relative;
+      text-align: center;
+      margin-top: 20%;
+      -webkit-text-stroke: 2px palevioletred;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 5vw;
+      background-image: -webkit-linear-gradient(left,hotpink 50%,transparent 50%
+      );
+      background-repeat: no-repeat;
+      background-size: 180% 100%;
+      -webkit-text-fill-color: transparent;   
+      -webkit-background-clip: text;
+      animation-name:fill-color;
+      animation-duration: 10s;
+      animation-direction: alternate;
+      animation-delay: -2s;
+  } 
+ 
+  @keyframes fill-color {
+      0% {
+          background-size:0% 100% 
+      }
+      50%{
+          background-size: 30% 100%
+      }
+      60%{
+          background-size: 50% 100%;
+      }
+      80%{
+          background-size: 120% 100%
+      }
+      90%{
+          background-size: 155% 100%;
+      }
+      95%{
+          background-size: 170% 100%;
+      }
+ 
+      100% {
+          background-size:180% 100% ;
+      }
+  }
+  a:link {
+   text-decoration: none;
+  }
+
+ h1{
+  position: relative;
+  text-align: center;
+  color: deeppink; 
+  font-family:'Press Start 2P', cursive; 
+  
+ }
+ h1:hover{
+     color: aqua;
+ }
+    
+  

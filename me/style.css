@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(35, 26, 78);
+}
+
+div{
+    position: absolute;
+    right: 20px;
+    top: 500px;
+}
